@@ -91,3 +91,17 @@ KC_UTILS_USER_SUPERADMIN_ROLE: str = getattr(
     "KC_UTILS_USER_SUPERADMIN_ROLE",
     "super_admin",
 )
+
+KC_UTILS_KC_SERVER_URL: str = getattr(settings, "KC_UTILS_KC_SERVER_URL", "https://sso.ottu.dev/auth/")
+KC_UTILS_KC_REALM: str = getattr(settings, "KC_UTILS_KC_REALM", "synctest.ottu.dev")
+
+KC_UTILS_KC_ADMIN_USER: str = getattr(settings, "KC_UTILS_KC_ADMIN_USER", "yamen")
+KC_UTILS_KC_ADMIN_PASSWORD: str = getattr(settings, "KC_UTILS_KC_ADMIN_PASSWORD", "Test@123456")
+
+KC_UTILS_KC_ADMIN_REALM: str = getattr(settings, "KC_UTILS_KC_ADMIN_REALM", "master")
+KC_UTILS_KC_ADMIN_ID: str = getattr(settings, "KC_UTILS_KC_ADMIN_ID", "admin-cli")
+
+KC_UTILS_KC_CLIENT_ID: str = getattr(settings, "KC_UTILS_KC_CLIENT_ID", "")
+KC_UTILS_KC_CLIENT_SECRET: str = getattr(settings, "KC_UTILS_KC_CLIENT_SECRET", "RN03tck7ZrIC22AbIeB1wpgZy4kUqA6q")
+
+
