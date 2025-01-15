@@ -259,3 +259,4 @@ bump2version --verbose [major|minor|patch]
 # push the changes to remote
 git push origin master --tags
 ```
+:
